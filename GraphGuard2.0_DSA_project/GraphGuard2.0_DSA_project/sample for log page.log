@@ -1,0 +1,139 @@
+2024-01-15 10:23:45 [INFO] User login successful: john_doe
+2024-01-15 10:24:12 [WARN] SQL query detected: ' OR '1'='1
+2024-01-15 10:25:33 [ERROR] Invalid input: <script>alert('xss')</script>
+2024-01-15 10:26:01 [INFO] File uploaded: report.pdf
+2024-01-15 10:27:19 [WARN] Multiple failed login attempts for user: admin
+2024-01-15 10:28:45 [INFO] Database backup completed
+2024-01-15 10:29:12 [ERROR] UNION SELECT detected in query
+2024-01-15 10:30:33 [INFO] User logout: john_doe
+2024-01-15 10:31:45 [ERROR] DROP TABLE users attempted from IP: 192.168.1.100
+2024-01-15 10:32:12 [INFO] Page visited: /index.html
+2024-02-10 09:00:11 [INFO] System initialized
+2024-02-10 09:00:15 [INFO] Cache warmed successfully
+2024-02-10 09:01:02 [INFO] User login successful: admin
+2024-02-10 09:01:34 [WARN] Slow response detected on /login endpoint
+2024-02-10 09:02:11 [INFO] Page visited: /dashboard
+2024-02-10 09:02:45 [INFO] File uploaded: pet_image1.png
+2024-02-10 09:03:12 [WARN] Suspicious input detected: ' OR 1=1 --
+2024-02-10 09:03:48 [ERROR] Invalid input blocked: <script>alert(1)</script>
+2024-02-10 09:04:10 [INFO] User logout: admin
+2024-02-10 09:04:32 [INFO] User login successful: staff_01
+2024-02-10 09:05:12 [INFO] Page visited: /pets/add
+2024-02-10 09:05:40 [INFO] File uploaded: vaccination_record.pdf
+2024-02-10 09:06:19 [WARN] Multiple failed login attempts for user: guest
+2024-02-10 09:06:55 [INFO] Auto-backup triggered
+2024-02-10 09:07:29 [INFO] Database backup completed
+2024-02-10 09:08:11 [ERROR] SQL injection attempt: UNION SELECT *
+2024-02-10 09:08:44 [INFO] User logout: staff_01
+2024-02-10 09:09:22 [INFO] User login successful: john_doe
+2024-02-10 09:09:51 [INFO] Page visited: /pets/view
+2024-02-10 09:10:24 [WARN] Suspicious parameter detected: %3Cscript%3E
+2024-02-10 09:10:59 [INFO] File uploaded: report.docx
+2024-02-10 09:11:18 [ERROR] Unauthorized attempt: DELETE FROM pets
+2024-02-10 09:11:54 [INFO] User logout: john_doe
+2024-02-10 09:12:10 [INFO] User login successful: admin
+2024-02-10 09:12:33 [INFO] Page visited: /settings
+2024-02-10 09:13:02 [WARN] High memory usage detected
+2024-02-10 09:13:37 [INFO] System cleanup started
+2024-02-10 09:14:14 [INFO] System cleanup finished
+2024-02-10 09:14:55 [ERROR] Invalid token in request header
+2024-02-10 09:15:30 [INFO] Page visited: /logs
+2024-02-10 09:16:01 [WARN] Unauthorized access attempt to /admin
+2024-02-10 09:16:42 [INFO] User logout: admin
+2024-02-10 09:17:15 [INFO] User login successful: staff_02
+2024-02-10 09:17:50 [INFO] Page visited: /pets/list
+2024-02-10 09:18:29 [WARN] Slow query detected: SELECT * FROM pets
+2024-02-10 09:18:53 [INFO] File uploaded: adoption_form.pdf
+2024-02-10 09:19:21 [ERROR] XSS attempt blocked: <img src=x onerror=alert(1)>
+2024-02-10 09:19:58 [INFO] User logout: staff_02
+2024-02-10 09:20:12 [INFO] User login successful: auditor
+2024-02-10 09:20:45 [INFO] Page visited: /analytics
+2024-02-10 09:21:11 [WARN] Suspicious login pattern detected
+2024-02-10 09:21:42 [INFO] Export generated: user_report.csv
+2024-02-10 09:22:09 [ERROR] Unexpected null pointer in audit module
+2024-02-10 09:22:40 [INFO] User logout: auditor
+2024-02-10 09:23:05 [INFO] User login successful: admin
+2024-02-10 09:23:30 [INFO] Page visited: /dashboard
+2024-02-10 09:24:12 [WARN] CPU spike observed: 95%
+2024-02-10 09:24:58 [INFO] File uploaded: pet_photo_22.jpg
+2024-02-10 09:25:33 [ERROR] SQL error: malformed query near 'DROP'
+2024-02-10 09:26:07 [INFO] User logout: admin
+2024-02-10 09:26:44 [INFO] User login successful: staff_03
+2024-02-10 09:27:15 [INFO] Page visited: /pets/add
+2024-02-10 09:27:49 [WARN] Rejected input containing HTML tags
+2024-02-10 09:28:26 [INFO] File uploaded: health_check.txt
+2024-02-10 09:28:51 [ERROR] Forbidden keyword detected: DROP TABLE
+2024-02-10 09:29:33 [INFO] User logout: staff_03
+2024-02-10 09:30:05 [INFO] Automatic maintenance triggered
+2024-02-10 09:30:44 [INFO] Cleanup complete
+2024-02-10 09:31:11 [WARN] Suspicious API access from IP: 192.168.1.150
+2024-02-10 09:31:48 [INFO] System health check OK
+2024-02-10 09:32:12 [ERROR] Multiple failed login attempts detected
+2024-02-10 09:32:49 [INFO] User login successful: admin
+2024-02-10 09:33:25 [INFO] Page visited: /reports
+2024-02-10 09:33:52 [WARN] Slow file processing detected
+2024-02-10 09:34:29 [INFO] Report generated: pets_2024.csv
+2024-02-10 09:34:57 [ERROR] Export failed: write permission denied
+2024-02-10 09:35:30 [INFO] User logout: admin
+2024-02-10 09:36:05 [INFO] User login successful: user_11
+2024-02-10 09:36:40 [INFO] Page visited: /pets/view?id=22
+2024-02-10 09:37:19 [WARN] Unexpected parameter length: 2048 chars
+2024-02-10 09:37:56 [INFO] File downloaded: pet_details_22.pdf
+2024-02-10 09:38:20 [ERROR] Unauthorized access blocked on /internal
+2024-02-10 09:38:55 [INFO] User logout: user_11
+2024-02-10 09:39:30 [INFO] System sync started
+2024-02-10 09:40:02 [INFO] System sync completed
+2024-02-10 09:40:37 [WARN] High network latency detected
+2024-02-10 09:41:14 [INFO] User login successful: admin
+2024-02-10 09:41:48 [INFO] Page visited: /notifications
+2024-02-10 09:42:20 [WARN] Email service delay detected
+2024-02-10 09:42:55 [INFO] Notification sent to all staff
+2024-02-10 09:43:33 [ERROR] SMTP error: handshake failed
+2024-02-10 09:44:10 [INFO] User logout: admin
+2024-02-10 09:44:54 [INFO] User login successful: staff_05
+2024-02-10 09:45:19 [INFO] Page visited: /pets/list
+2024-02-10 09:45:56 [WARN] Deprecated API endpoint used
+2024-02-10 09:46:30 [INFO] File uploaded: new_pet_data.json
+2024-02-10 09:47:07 [ERROR] JSON validation failed
+2024-02-10 09:47:34 [INFO] User logout: staff_05
+2024-02-10 09:48:11 [INFO] User login successful: reviewer
+2024-02-10 09:48:43 [INFO] Page visited: /reviews
+2024-02-10 09:49:20 [WARN] Suspicious URL encoding detected
+2024-02-10 09:49:55 [INFO] File uploaded: feedback_notes.txt
+2024-02-10 09:50:32 [ERROR] Access denied to resource: /secure/reviews
+2024-02-10 09:51:10 [INFO] User logout: reviewer
+2024-02-10 09:51:48 [INFO] Scheduled job started: clean_temp
+2024-02-10 09:52:22 [INFO] Temp directory cleared
+2024-02-10 09:52:58 [WARN] Disk usage at 82%
+2024-02-10 09:53:31 [INFO] Disk cleanup completed
+2024-02-10 09:54:04 [ERROR] Missing configuration file: cache.yml
+2024-02-10 09:54:40 [INFO] System restarted: cache module
+2024-02-10 09:55:12 [INFO] User login successful: admin
+2024-02-10 09:55:46 [INFO] Page visited: /system
+2024-02-10 09:56:22 [WARN] Failed API ping to analytics server
+2024-02-10 09:56:55 [INFO] Retrying analytics request...
+2024-02-10 09:57:28 [INFO] Analytics server online
+2024-02-10 09:58:00 [ERROR] Analytics fetch failed: timeout
+2024-02-10 09:58:37 [INFO] User logout: admin
+2024-02-10 09:59:15 [INFO] System idle
+2024-02-10 10:00:02 [INFO] Background worker executed
+2024-02-10 10:00:48 [ERROR] Worker failed: null response
+2024-02-10 10:01:20 [INFO] Worker restart initiated
+2024-02-10 10:01:52 [INFO] Worker restarted
+2024-02-10 10:02:26 [WARN] High thread count detected
+2024-02-10 10:02:59 [INFO] User login successful: guest
+2024-02-10 10:03:30 [INFO] Page visited: /home
+2024-02-10 10:04:03 [WARN] Invalid session token detected
+2024-02-10 10:04:37 [ERROR] Guest attempted unauthorized access: /pets/add
+2024-02-10 10:05:10 [INFO] User logout: guest
+2024-02-10 10:05:45 [INFO] Auto-save triggered
+2024-02-10 10:06:18 [INFO] Auto-save completed
+2024-02-10 10:06:51 [WARN] Slow disk write operation
+2024-02-10 10:07:24 [INFO] System stabilized
+2024-02-10 10:07:57 [INFO] User login successful: admin
+2024-02-10 10:08:31 [INFO] Page visited: /users
+2024-02-10 10:09:05 [WARN] Legacy password hashing detected
+2024-02-10 10:09:42 [INFO] Password hashing upgraded
+2024-02-10 10:10:14 [ERROR] Unexpected server restart signal
+2024-02-10 10:10:48 [INFO] Restart aborted safely
+2024-02-10 10:11:21 [INFO] User logout: admin
